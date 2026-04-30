@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Minimal Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="setup-view" class="view">
+      <div class="inputs">
+        <input type="number" id="input-h" min="0" max="99" value="00" onclick="this.select()">:
+        <input type="number" id="input-m" min="0" max="59" value="00" onclick="this.select()">:
+        <input type="number" id="input-s" min="0" max="59" value="00" onclick="this.select()">
+      </div>
+      <div class="controls">
+        <button id="btn-start" class="btn">Start</button>
+        <button id="btn-close" class="btn btn-red">X</button>
+      </div>
+    </div>
+
+    <div id="timer-view" class="view hidden">
+      <div id="display-time">00:00:00</div>
+      <div class="controls">
+        <button id="btn-pause" class="btn">Pause</button>
+        <button id="btn-reset" class="btn">Reset</button>
+      </div>
+    </div>
+
+    <div id="alarm-view" class="view hidden">
+      <div id="alarm-text">00:00:00</div>
+      <div class="controls">
+        <button id="btn-stop" class="btn btn-red">STOP</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="alarm-sound" loop></audio>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
