@@ -1,56 +1,81 @@
 # ⏱️ Minimalist Timer
 
-An ultra-minimalist, distraction-free countdown timer built with Electron. Designed for focused study sessions and productivity, this timer stays "Always-On-Top" to keep you on track without cluttering your workspace.
+<div align="center">
+  <img src="./ui.png" alt="Minimalist Timer UI screenshot" />
+</div>
 
-## ✨ Features
+## 📝 Repository Description
 
-- **Minimalist Design**: A sleek, tiny window that shows only what you need.
-- **Always-On-Top**: Stays visible above other windows (even in full-screen modes).
-- **Persistent State**: Automatically saves your remaining time if the app is closed, resuming exactly where you left off.
-- **Keyboard Friendly**: Quick interactions for setting and starting timers.
-- **No Decorations**: Transparent, frame-less window for a clean look.
+**Overview:** An ultra-minimalist, distraction-free countdown timer built with Electron. Designed for focused study sessions and productivity.
+**Live Project Link:** [Add Live Link/Release Here]
+**Tech Stack:** Electron, Node.js, HTML, CSS, JavaScript
 
-## 🚀 Getting Started
+---
+
+## 📖 Project Overview
+
+Minimalist Timer is a sleek, transparent, always-on-top countdown timer designed to keep you focused without cluttering your workspace. Built using Electron, it ensures that your timer is always visible, even in full-screen modes, while retaining a persistent state across sessions.
+
+## 💻 Technologies Used
+
+- **Electron**: Framework for building cross-platform desktop applications.
+- **Node.js**: JavaScript runtime environment.
+- **HTML5, CSS3, Vanilla JavaScript**: Core web technologies used for a lightweight and performant frontend experience.
+
+## ✨ Key Features
+
+- **Minimalist Design**: A tiny, sleek window that displays only essential information.
+- **Always-On-Top**: Stays visible above all other windows and applications.
+- **Persistent State**: Automatically saves remaining time when closed and resumes where you left off.
+- **Keyboard Friendly**: Quick keyboard interactions for setting and controlling the timer.
+- **No Decorations**: Transparent, frame-less window for a clean and unobtrusive look.
+
+## 📦 Dependencies
+
+The project utilizes the following main dependencies (refer to `package.json` for details):
+- `electron` (^30.0.1) - The core framework.
+- `electron-builder` (^24.13.3) - Used for packaging and distributing the application.
+
+## 🚀 How to Run Locally
 
 ### Prerequisites
-
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
-- npm (usually comes with Node.js)
+- Git
 
-### Installation
+### Installation Steps
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/minimalist-timer.git
    cd minimalist-timer
    ```
 
-2. Install dependencies:
+2. **Install the dependencies:**
    ```bash
    npm install
    ```
 
-3. Run the application:
+3. **Run the application:**
    ```bash
    npm start
    ```
 
 ## 🛠️ Build and Distribution
 
-To package the application for distribution:
+To package the application into a distributable format:
 
 ```bash
-# Package for the current platform
+# Package for the current platform without building an installer
 npm run pack
 
-# Build installers (Windows setup file)
+# Build installers (e.g., Windows setup executable)
 npm run dist
 ```
 
-## 🛠️ Built With
+## 🔗 Relevant Links
 
-- [Electron](https://www.electronjs.org/) - Framework for building cross-platform desktop apps with web technologies.
-- [Vanilla JavaScript/CSS/HTML](https://developer.mozilla.org/en-US/) - For a lightweight and performant experience.
+- **Live Project / Download**: [Insert Download/Release Link Here]
+- **GitHub Repository**: [Insert Repository Link Here]
 
 ## 📄 License
 
