@@ -1,8 +1,6 @@
 # ⏱️ Minimalist Timer
 
-<div align="center">
-  <img src="./ui.png" alt="Minimalist Timer UI screenshot" />
-</div>
+![Minimalist Timer UI screenshot](ui.png)
 
 ## 📝 Repository Description
 
